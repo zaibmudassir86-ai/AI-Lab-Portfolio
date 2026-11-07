@@ -1,0 +1,1 @@
+Lab 3 edge cases passed: start=goal, unreachable goal, and cycle handling.

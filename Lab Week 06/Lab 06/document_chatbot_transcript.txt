@@ -1,0 +1,19 @@
+Evidence assistant using TF-IDF with 40 word windows and 10 word overlap. Type exit to stop.
+Question: Candidate evidence; relevance must be checked:
+1 assessment:2 0.631 characters 402 690
+2 assessment:1 0.261 characters 205 485
+3 assessment:3 0.160 characters 622 870
+Choose 1 to 3 to inspect; Enter if none apply: Retrieved passage: released. Late submission is normally penalized. Illness extensions require medical evidence submitted to the course coordinator before the deadline. The evidence must identify the period of illness, but students should not place unnecessary private medical details in a public discussion
+Source: assessment.txt characters 402 690
+Question: Candidate evidence; relevance must be checked:
+1 returns:0 0.179 characters 0 247
+2 printer:1 0.124 characters 190 431
+3 printer:2 0.104 characters 363 606
+Choose 1 to 3 to inspect; Enter if none apply: No answer selected. Rephrase or contact a human.
+Question: Please enter a question.
+Question: Candidate evidence; relevance must be checked:
+1 assessment:6 0.185 characters 1189 1427
+2 workplace:5 0.177 characters 1033 1271
+3 returns:0 0.158 characters 0 247
+Choose 1 to 3 to inspect; Enter if none apply: No answer selected. Rephrase or contact a human.
+Question: 

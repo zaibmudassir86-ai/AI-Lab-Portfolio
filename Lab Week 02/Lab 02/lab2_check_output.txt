@@ -1,0 +1,5 @@
+First target sends COOL: PASS
+Repeated COOL is suppressed: PASS
+20 C boundary is IDLE: PASS
+26 C boundary is IDLE: PASS
+Empty room selects ECO: PASS

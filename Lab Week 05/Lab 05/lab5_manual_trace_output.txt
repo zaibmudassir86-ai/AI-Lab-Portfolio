@@ -1,0 +1,6 @@
+Leaf utilities: [3, 5, 2, 9, 0, 7, 0, 0]
+MAX layer: [5, 9, 7, 0]
+MIN layer: [5, 0]
+Root MAX value: 5
+Chosen root branch: left MIN subtree, value 5
+Chosen leaf in left MIN subtree: first MAX child has value 5

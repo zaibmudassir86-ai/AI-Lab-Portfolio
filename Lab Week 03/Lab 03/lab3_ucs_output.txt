@@ -1,0 +1,17 @@
+Weighted edges:
+  A -> B: 1
+  A -> C: 5
+  B -> D: 8
+  B -> E: 1
+  C -> F: 2
+  C -> G: 7
+  E -> G: 1
+
+UCS path: A -> B -> E -> G
+UCS total cost (algorithm): 3
+UCS total cost (independent sum): 3
+UCS processing order: [('A', 0), ('B', 1), ('E', 2), ('G', 3)]
+
+BFS path on same topology: A -> C -> G
+BFS hop count: 2
+BFS weighted cost: 12

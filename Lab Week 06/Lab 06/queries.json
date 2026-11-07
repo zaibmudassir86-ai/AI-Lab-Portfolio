@@ -1,0 +1,62 @@
+[
+  {
+    "query": "What proof is needed for an illness extension?",
+    "doc": "assessment",
+    "evidence": "Late submission is normally penalized. Illness extensions require medical evidence submitted to the course coordinator before the deadline.",
+    "split": "dev"
+  },
+  {
+    "query": "Where should I upload my final coursework?",
+    "doc": "assessment",
+    "evidence": "Students should upload the final assignment through the learning portal before the deadline shown on the course page.",
+    "split": "dev"
+  },
+  {
+    "query": "How can I regain access after forgetting my password?",
+    "doc": "it_help",
+    "evidence": "A forgotten password can be reset using the recovery link on the sign in page.",
+    "split": "dev"
+  },
+  {
+    "query": "What must I do if a parcel arrives damaged?",
+    "doc": "returns",
+    "evidence": "For a damaged parcel, contact support within 48 hours and attach photographs of the item and packaging.",
+    "split": "dev"
+  },
+  {
+    "query": "Can a contractor work from home?",
+    "doc": "workplace",
+    "evidence": "Contractors may work remotely only when the signed contract explicitly permits remote work.",
+    "split": "test"
+  },
+  {
+    "query": "My printer gives completely blank pages, what steps should I follow?",
+    "doc": "printer",
+    "evidence": "For blank printer pages: 1. Check ink level. 2. Run the printer cleaning utility. 3. Print a test page. Follow the device manual.",
+    "split": "test"
+  },
+  {
+    "query": "I cannot receive my account recovery email, what should I check?",
+    "doc": "it_help",
+    "evidence": "If the recovery email does not arrive, check the spam folder and confirm that the registered address is still accessible.",
+    "split": "test"
+  },
+  {
+    "query": "How long do I have to report a broken delivery in the PK region?",
+    "doc": "returns",
+    "evidence": "For a damaged parcel, contact support within 48 hours and attach photographs of the item and packaging.",
+    "split": "test"
+  },
+  {
+    "query": "What are tomorrow's flight prices?",
+    "doc": null,
+    "evidence": null,
+    "split": "test"
+  },
+  {
+    "query": "Who won yesterday's football match?",
+    "doc": null,
+    "evidence": null,
+    "split": "test"
+  }
+]

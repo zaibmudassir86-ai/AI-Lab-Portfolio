@@ -1,0 +1,9 @@
+Original comparison
+Rule-based: Review
+Probability-based: Review
+
+case | symbolic | threshold | disagreement
+complete_high | Review | Review | False
+complete_low | Hold | Review | True
+incomplete_high | Hold | Review | True
+boundary | Review | Review | False

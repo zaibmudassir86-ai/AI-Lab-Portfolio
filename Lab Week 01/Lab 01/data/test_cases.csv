@@ -1,0 +1,5 @@
+name,score,documents_complete,income_documents_verified,recommendation_received,expected
+pass_all_conditions,82,True,True,True,Review
+fail_income_verification,82,True,False,True,Hold
+fail_recommendation_condition,82,True,True,False,Hold
+threshold_boundary_score_70,70,True,True,True,Review

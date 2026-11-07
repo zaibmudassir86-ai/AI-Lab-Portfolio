@@ -1,0 +1,10 @@
+strategy,method,split,hit_at_3,mrr_at_3,chunks,encode_seconds,search_seconds,model_load_seconds,status
+0,tfidf,dev,0.75,0.75,31,0.0023087120002855954,0.00017909000007421128,not applicable,COMPLETED
+0,tfidf,test,0.75,0.5833333333333334,31,0.0023087120002855954,0.00017909000007421128,not applicable,COMPLETED
+0,embedding,not_run,,,31,,,,NOT RUN: ModuleNotFoundError: No module named 'sentence_transformers'
+10,tfidf,dev,1.0,0.875,36,0.001954618000127084,0.00011678599958031555,not applicable,COMPLETED
+10,tfidf,test,0.75,0.75,36,0.001954618000127084,0.00011678599958031555,not applicable,COMPLETED
+10,embedding,not_run,,,36,,,,NOT RUN: ModuleNotFoundError: No module named 'sentence_transformers'
+sentence,tfidf,dev,0.75,0.75,33,0.0016055320002124063,9.699600013846066e-05,not applicable,COMPLETED
+sentence,tfidf,test,0.5,0.5,33,0.0016055320002124063,9.699600013846066e-05,not applicable,COMPLETED
+sentence,embedding,not_run,,,33,,,,NOT RUN: ModuleNotFoundError: No module named 'sentence_transformers'

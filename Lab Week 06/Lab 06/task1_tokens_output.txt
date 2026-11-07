@@ -1,0 +1,26 @@
+Original: 'AI, search!'
+Whitespace tokens: ['AI,', 'search!'] count: 2
+Word-like tokens: ['AI', 'search'] count: 2
+
+Original: "I can't log in."
+Whitespace tokens: ['I', "can't", 'log', 'in.'] count: 4
+Word-like tokens: ['I', 'can', 't', 'log', 'in'] count: 5
+
+Original: 'help@example.com'
+Whitespace tokens: ['help@example.com'] count: 1
+Word-like tokens: ['help', 'example', 'com'] count: 3
+
+Original: 'CS4944'
+Whitespace tokens: ['CS4944'] count: 1
+Word-like tokens: ['CS4944'] count: 1
+
+Original: ''
+Whitespace tokens: [] count: 0
+Word-like tokens: [] count: 0
+
+Original: 'یہ ایک مثال ہے'
+Whitespace tokens: ['یہ', 'ایک', 'مثال', 'ہے'] count: 4
+Word-like tokens: ['یہ', 'ایک', 'مثال', 'ہے'] count: 4
+
+Model tokenizer comparison unavailable: ModuleNotFoundError No module named 'transformers'
+Install sentence-transformers and allow the model tokenizer download to run this optional comparison.

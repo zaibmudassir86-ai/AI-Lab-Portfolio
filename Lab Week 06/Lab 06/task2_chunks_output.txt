@@ -1,0 +1,4 @@
+0 {'id': 'example:0', 'doc': 'example', 'source': 'example.txt', 'start': 0, 'end': 49, 'text': 'Reset your password. Keep recovery codes private.'}
+10 {'id': 'example:0', 'doc': 'example', 'source': 'example.txt', 'start': 0, 'end': 49, 'text': 'Reset your password. Keep recovery codes private.'}
+sentence {'id': 'example:0', 'doc': 'example', 'source': 'example.txt', 'start': 0, 'end': 49, 'text': 'Reset your password. Keep recovery codes private.'}
+Chunk boundary checks passed

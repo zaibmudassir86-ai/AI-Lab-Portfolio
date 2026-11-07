@@ -1,0 +1,6 @@
+Expansion 1: selected S, g=0, h=5, f=5
+Frontier: [('A', 1, 4, 5), ('B', 4, 4, 8)]
+Expansion 2: selected A, g=1, h=4, f=5
+Frontier: [('C', 3, 2, 5), ('B', 4, 4, 8)]
+Expansion 3: selected C, g=3, h=2, f=5
+Frontier: [('G', 6, 0, 6), ('B', 4, 4, 8)]

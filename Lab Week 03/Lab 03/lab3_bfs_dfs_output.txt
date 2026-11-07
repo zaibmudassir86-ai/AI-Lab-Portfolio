@@ -1,0 +1,20 @@
+BFS path: A -> B -> E -> G
+BFS processing order: A, B, C, D, E, F, G
+BFS frontier after each processed node:
+  after A: ['B', 'C']
+  after B: ['C', 'D', 'E']
+  after C: ['D', 'E', 'F']
+  after D: ['E', 'F']
+  after E: ['F', 'G']
+  after F: ['G']
+  after G: []
+
+DFS path: A -> B -> E -> G
+DFS processing order: A, B, D, E, G
+DFS frontier after each processed node:
+  after A: ['C', 'B']
+  after B: ['C', 'E', 'D']
+  after D: ['C', 'E']
+  after E: ['C', 'G']
+  after G: ['C']
+

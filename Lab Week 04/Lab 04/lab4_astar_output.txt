@@ -1,0 +1,67 @@
+
+A* with supplied heuristic
+Status: FOUND
+Path: S -> A -> C -> G
+Returned cost: 6
+Independently summed cost: 6
+Processed trace (node, g, h, f): [('S', 0, 5, 5), ('A', 1, 4, 5), ('C', 3, 2, 5), ('G', 6, 0, 6)]
+Expanded nodes: ['S', 'A', 'C']
+Expansion count: 3
+Stale entries skipped: []
+
+UCS control (h = 0)
+Status: FOUND
+Path: S -> A -> C -> G
+Returned cost: 6
+Independently summed cost: 6
+Processed trace (node, g, h, f): [('S', 0, 0, 0), ('A', 1, 0, 1), ('C', 3, 0, 3), ('B', 4, 0, 4), ('G', 6, 0, 6)]
+Expanded nodes: ['S', 'A', 'C', 'B']
+Expansion count: 4
+Stale entries skipped: []
+
+A* with overestimate h(C) = 10
+Status: FOUND
+Path: S -> B -> G
+Returned cost: 9
+Independently summed cost: 9
+Processed trace (node, g, h, f): [('S', 0, 5, 5), ('A', 1, 4, 5), ('B', 4, 4, 8), ('G', 9, 0, 9)]
+Expanded nodes: ['S', 'A', 'B']
+Expansion count: 3
+Stale entries skipped: []
+
+Heuristic audit
+S: h=5, true remaining=6, admissible=True
+A: h=4, true remaining=5, admissible=True
+B: h=4, true remaining=5, admissible=True
+C: h=2, true remaining=3, admissible=True
+G: h=0, true remaining=0, admissible=True
+S->A: 5 <= 1 + 4 : True
+S->B: 5 <= 4 + 4 : True
+A->C: 4 <= 2 + 2 : True
+B->G: 4 <= 5 + 0 : True
+C->G: 2 <= 3 + 0 : True
+All supplied edge consistency checks pass: True
+
+Edge case: start equals goal
+
+A* start=goal
+Status: FOUND
+Path: S
+Returned cost: 0
+Independently summed cost: 0
+Processed trace (node, g, h, f): [('S', 0, 5, 5)]
+Expanded nodes: []
+Expansion count: 0
+Stale entries skipped: []
+
+Edge case: unreachable goal
+
+UCS unreachable goal
+Status: FAILURE
+Path: None
+Returned cost: inf
+Independently summed cost: None
+Processed trace (node, g, h, f): [('S', 0, 0, 0), ('A', 1, 0, 1)]
+Expanded nodes: ['S', 'A']
+Expansion count: 2
+Stale entries skipped: []

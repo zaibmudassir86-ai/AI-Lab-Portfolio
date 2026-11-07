@@ -1,0 +1,28 @@
+{
+  "manual_leaf_scores": [
+    3,
+    5,
+    2,
+    9,
+    0,
+    7
+  ],
+  "padding_rule": "The manual reference pads to eight leaves with zeros for the complete binary tree exercise.",
+  "padded_leaf_scores": [
+    3,
+    5,
+    2,
+    9,
+    0,
+    7,
+    0,
+    0
+  ],
+  "root_player": "MAX",
+  "levels": [
+    "MAX",
+    "MIN",
+    "MAX",
+    "LEAF"
+  ]
+}

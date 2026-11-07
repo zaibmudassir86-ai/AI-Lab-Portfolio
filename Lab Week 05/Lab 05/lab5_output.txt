@@ -1,0 +1,21 @@
+SUPPLIED TREE
+Input leaf scores: [3, 5, 2, 9, 0, 7]
+Padded leaf scores: [3, 5, 2, 9, 0, 7, 0, 0]
+Tree depth: 3
+Minimax root value: 5
+Minimax evaluated leaves: 8
+Alpha-Beta root value: 5
+Alpha-Beta evaluated leaves: 8
+Alpha-Beta cutoffs: 2
+
+REVERSED SIBLING ORDER
+Reordered leaf scores: [0, 0, 7, 0, 9, 2, 5, 3]
+Minimax root value: 5
+Minimax evaluated leaves: 8
+Alpha-Beta root value: 5
+Alpha-Beta evaluated leaves: 7
+Alpha-Beta cutoffs: 1
+
+EDGE CASES
+Single leaf, root value: 7 Minimax leaves: 1 Alpha-Beta leaves: 1
+Equal leaves, root values: 4 4 evaluated leaves: 4 3

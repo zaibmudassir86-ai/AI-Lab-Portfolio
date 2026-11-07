@@ -1,0 +1,2 @@
+NOT RUN: Install sentence-transformers to use the embedding backend
+Install the packages in requirements.txt and allow the model download, then run this script again.

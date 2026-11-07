@@ -1,0 +1,47 @@
+Scholarship screening rule tests
+All thresholds are synthetic lab assumptions.
+
+Case: pass_all_conditions
+Input: score=82, documents_complete=True, income_documents_verified=True, recommendation_received=True
+Expected result: Review
+Actual result:   Review
+Reason:
+  score_at_least_70: True
+  documents_complete: True
+  income_documents_verified: True
+  recommendation_received: True
+Test passed: True
+
+Case: fail_income_verification
+Input: score=82, documents_complete=True, income_documents_verified=False, recommendation_received=True
+Expected result: Hold
+Actual result:   Hold
+Reason:
+  score_at_least_70: True
+  documents_complete: True
+  income_documents_verified: False
+  recommendation_received: True
+Test passed: True
+
+Case: fail_recommendation_condition
+Input: score=82, documents_complete=True, income_documents_verified=True, recommendation_received=False
+Expected result: Hold
+Actual result:   Hold
+Reason:
+  score_at_least_70: True
+  documents_complete: True
+  income_documents_verified: True
+  recommendation_received: False
+Test passed: True
+
+Case: threshold_boundary_score_70
+Input: score=70, documents_complete=True, income_documents_verified=True, recommendation_received=True
+Expected result: Review
+Actual result:   Review
+Reason:
+  score_at_least_70: True
+  documents_complete: True
+  income_documents_verified: True
+  recommendation_received: True
+Test passed: True
+

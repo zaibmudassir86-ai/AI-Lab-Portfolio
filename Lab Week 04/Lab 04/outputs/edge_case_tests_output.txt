@@ -1,0 +1,1 @@
+Lab 4 edge cases passed: optimal path, start=goal, unreachable goal, overestimate and invalid node.

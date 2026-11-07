@@ -1,0 +1,11 @@
+0 tfidf dev Hit@3=0.750 MRR@3=0.750 chunks 31 encode/index 0.002309s search 0.000179s
+0 tfidf test Hit@3=0.750 MRR@3=0.583 chunks 31 encode/index 0.002309s search 0.000179s
+0 embedding NOT RUN: ModuleNotFoundError No module named 'sentence_transformers'
+10 tfidf dev Hit@3=1.000 MRR@3=0.875 chunks 36 encode/index 0.001955s search 0.000117s
+10 tfidf test Hit@3=0.750 MRR@3=0.750 chunks 36 encode/index 0.001955s search 0.000117s
+10 embedding NOT RUN: ModuleNotFoundError No module named 'sentence_transformers'
+sentence tfidf dev Hit@3=0.750 MRR@3=0.750 chunks 33 encode/index 0.001606s search 0.000097s
+sentence tfidf test Hit@3=0.500 MRR@3=0.500 chunks 33 encode/index 0.001606s search 0.000097s
+sentence embedding NOT RUN: ModuleNotFoundError No module named 'sentence_transformers'
+Wrote retrieval_log.csv and retrieval_summary.csv
+Unanswerable queries are logged in top-three results but excluded from Hit@3 and MRR@3.
